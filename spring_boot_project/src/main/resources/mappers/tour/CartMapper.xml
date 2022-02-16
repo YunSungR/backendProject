@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="spring_boot_project.dao.ICartDAO">
+  <insert id="insertCart" parameterType="spring_boot_project.model.CartVO">
+  	insert into cart(memId,trNo,cartQty) values(#{memId},#{trNo},#{cartQty})
+  
+  </insert>
+  <select id="checkTourInCart" parameterType="hashmap" resultType="int">
+  	select count(*) from cart where memId=#{memId} and trNo=#{trNo}
+  </select>
+  <update id="updateQtyInCart" parameterType="spring_boot_project.model.CartVO">
+  	update cart set cartQty = cartQty + #{cartQty}
+  	 where memId=#{memId} and trNo=#{trNo}
+  </update>
+ <select id="cartList" parameterType="string"
+  	 				resultType="spring_boot_project.model.CartVO">
+  		SELECT c.cartNo, t.trNo, t.trImg, t.trName, t.trPrice, c.cartQty, c.memId
+  		FROM travel t, cart c
+  		WHERE t.trNo = c.trNo  AND c.memId=#{memId}
+  		ORDER BY c.cartNo
+  	</select>
+  		<delete id="deleteCart" parameterType="string">
+   		DELETE FROM cart
+   		WHERE cartNo=#{cartNo}
+   </delete>
+  </mapper>

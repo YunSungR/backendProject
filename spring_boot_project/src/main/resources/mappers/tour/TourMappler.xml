@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="spring_boot_project.dao.ITourDAO">
+  
+  	<select id="listCtgTour" parameterType="string" resultType="spring_boot_project.model.TourVO">
+  		select * from travel where ctgId=#{ctgId}
+  		
+  	</select>
+  	
+  	<select id="detailViewTourInfo" parameterType="string" resultType="spring_boot_project.model.TourVO">
+  		select * from travel where trNo=#{trNo}
+  		
+  	</select>
+  	
+  	<!-- 여행지 검색 -->
+  	<resultMap id="tourResult" type="spring_boot_project.model.TourVO">
+		<result property="trNo" column="trNo" />
+		<result property="trName" column="trName" />
+		<result property="trPrice" column="trPrice" />
+		<result property="trDescript" column="trDescript" />
+		<result property="trImg" column="trImg" />
+		<result property="ctgId" column="ctgId" />	
+	</resultMap>
+	<select id="tourSearch" resultMap="tourResult" parameterType="hashmap">
+		SELECT * FROM travel WHERE trName LIKE CONCAT('%', #{keyword}, '%')
+	</select>
+	
+  </mapper>

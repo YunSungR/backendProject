@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#item1{
+	padding-left:0;
+	margin:0;
+	line-height:40px;
+	background:url("../image/canada.png");
+	background-size: 50% 50%;
+	background-position:center;
+	height:25vw;
+	color:black;
+	font-weight:bold;
+}
+
+#item2{
+	padding-left:0;
+	margin:0;
+	height:25vw;
+	line-height:40px;
+	background:url("../image/canada.png");
+	background-size: 50% 50%;
+	background-position:center;
+	color:black;
+	font-weight:bold;
+}
+
+#item3{
+	padding-left:0;
+	margin:0;
+	line-height:40px;
+	background:url("../image/canada.png");
+	background-size: 50% 50%;
+	background-position:center;
+	height:25vw;
+	color:black;
+	font-weight:bold;
+}
+
+#item4{
+	padding-left:0;
+	height:25vw;
+	margin:0;
+	line-height:40px;
+	background:url("../image/canada.png");
+	background-size: 50% 50%;
+	background-position:center;
+	color:black;
+	font-weight:bold;
+}
+
+#item5{
+	padding-left:0;
+	height:25vw;
+	margin:0;
+	line-height:40px;
+	background:url("../image/canada.png");
+	background-size: 50% 50%;
+	background-position:center;
+	color:black;
+	font-weight:bold;
+}

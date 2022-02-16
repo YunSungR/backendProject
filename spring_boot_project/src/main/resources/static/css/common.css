@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{margin: 0 auto;}
+
+#wrap{
+	width:1800px;
+	text-align:center;
+	position:relative;
+	background:#eeeeee
+}
+img{
+	border:0;margin:0;
+}
+
+#logoBox{
+	width: 100%;
+	text-align: center;
+}
+#logoImg{
+	width:30%;
+	height:200px;
+}

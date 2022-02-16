@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+				margin:0;
+			}
+			h1 {
+				border: 5px solid red;
+				font-size:45px;
+				text-align: center;
+				margin:0;
+				padding:10px;
+			}
+			ol{
+				border-right:3px solid red;
+				width:160px;
+			}
+			
+			.img{
+				width: 50%;
+				height: 50%;
+			}

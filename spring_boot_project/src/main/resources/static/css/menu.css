@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+ul{
+	margin-top:0;
+	padding:0;
+	list-style:none;
+}
+
+
+#topMenuBox a{
+	float:right;
+	font-weight:bold;
+	padding-right:5px;
+	color:black;
+	text-decoration:none;
+}
+
+#mainMenuBox{
+	width:1800px;
+	height:50px;
+	line-height:50px;
+	background:white;
+	z-index:20; /*스크롤 시 위에 오도록*/
+	border-top:solid #cccccc 1px;
+	border-bottom:solid #cccccc 1px;
+}
+
+#mainMenuBox ul{
+	margin:0;
+}
+#mainMenuBox li{
+	float:left;
+	text-align:center;
+	width:7%;
+	height:50px;
+	line-height:50px;
+}
+#mainMenuBox li:nth-child(1){
+	color:black;
+	border:solid 3px blue;
+}
+#mainMenuBox li a{
+	text-decoration:none;
+	color:black;
+	font-size:12pt;
+	font-weight:bold;
+	}
+#topMenuBox a:hover{
+	color:red
+}
+#subMenuBox{
+	width:1800px;
+	height:160px;
+	background:white;
+	text-align:center;
+	z-index:10; /*스크롤 시 위에 오도록*/
+	padding-bottom:0;
+	position:absolute;
+	visibility:hidden;
+}
+
+.subMenuItem{
+	width:7%;
+	background:white;
+	text-align:center;
+	border-left:solid #cccccc 1px;
+	border-right:solid #cccccc 1px;
+	margin-top:10px;
+}
+#subMenuItem1{
+	position:absolute;
+}
+#subMenuItem2{
+	position:absolute;
+	margin-left:7%;
+}
+#subMenuItem3{
+	position:absolute;
+	margin-left:14%;
+}
+#subMenuItem4{
+	position:absolute;
+	margin-left:21%;
+}
+#subMenuItem5{
+	position:absolute;
+	margin-left:28%;
+}
+#subMenuItem6{
+	position:absolute;
+	margin-left:35%;
+}
+#subMenuItem7{
+	position:absolute;
+	margin-left:42%;
+}
+#subMenuItem8{
+	position:absolute;
+	margin-left:49%;
+}
+#subMenuItem9{
+	position:absolute;
+	margin-left:56%;
+}
+#subMenuItem10{
+	position:absolute;
+	margin-left:63%;
+}
+.subMenuItem ul li a{
+	color:black;
+	text-decoration:none;
+}
+.subMenuItem ul li a:hover{
+	background:white;
+	text-decoration:underline;
+	color:blue;
+}
