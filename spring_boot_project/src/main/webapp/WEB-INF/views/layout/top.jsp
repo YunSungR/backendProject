@@ -56,6 +56,7 @@
            	   <a href="<c:url value='/tourInfo/listCtgTour/${1}'/>">초저가 여행지</a>&nbsp; /&nbsp; 
            	   <a href="<c:url value='/tourInfo/listCtgTour/${2}'/>">중저가 여행지</a>&nbsp; /&nbsp; 
            	   <a href="<c:url value='/tourInfo/listCtgTour/${3}'/>">하이엔드 여행지</a>
+           	   <a href="<c:url value='/tourInfo/listCtgTour/${4}'/>"> 여행지</a>
            	  </div>
               <div class="subMenuItem" id="subMenuItem1">
                  <ul>
