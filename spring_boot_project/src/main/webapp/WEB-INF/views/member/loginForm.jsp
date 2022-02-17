@@ -36,6 +36,12 @@
  				<div class="caption-a"><a href="<c:url value='/joinForm'/>">회원가입</a></div>
  				<div class="caption-a"><a href="#">비밀번호찾기</a></div>
  				<div class="caption-a"><a href="<c:url value='/joinForm'/>">회원가입</a></div>
+ 				<div class="caption-a"><a href="#">비밀번호찾기</a></div>
+ 				<div class="caption-a"><a href="<c:url value='/joinForm'/>">회원가입</a></div>
+ 				<div class="caption-a"><a href="#">비밀번호찾기</a></div>
+ 				<div class="caption-a"><a href="<c:url value='/joinForm'/>">회원가입</a></div>
+ 				<div class="caption-a"><a href="#">비밀번호찾기</a></div>
+ 				<div class="caption-a"><a href="<c:url value='/joinForm'/>">회원가입</a></div>
  			</div>
  		</section>
  		</div>
