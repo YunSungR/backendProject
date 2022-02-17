@@ -56,7 +56,6 @@
            	   <a href="<c:url value='/tourInfo/listCtgTour/${1}'/>">초저가 여행지</a>&nbsp; /&nbsp; 
            	   <a href="<c:url value='/tourInfo/listCtgTour/${2}'/>">중저가 여행지</a>&nbsp; /&nbsp; 
            	   <a href="<c:url value='/tourInfo/listCtgTour/${3}'/>">하이엔드 여행지</a>
-           	   <a href="<c:url value='/tourInfo/listCtgTour/${4}'/>"> 여행지</a>
            	  </div>
               <div class="subMenuItem" id="subMenuItem1">
                  <ul>
@@ -70,6 +69,7 @@
                  <ul>
                     <li><a href='https://terms.naver.com/entry.naver?docId=948624&cid=42865&categoryId=42865'>해동 용궁사 정보 </a></li>
                     <li><a href='https://terms.naver.com/entry.naver?docId=2821396&cid=55782&categoryId=56420'>감천 문화 마을 정보 </a></li>
+                    <li><a href='https://terms.naver.com/entry.naver?docId=1999233&cid=42856&categoryId=42856'>광안리 해수욕장 정보 </a></li>
                     <li><a href='https://terms.naver.com/entry.naver?docId=1999233&cid=42856&categoryId=42856'>광안리 해수욕장 정보 </a></li>
                  </ul>
               </div>
